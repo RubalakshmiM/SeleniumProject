@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SampleTEstSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SampleTest01(failed)">
+    <classes>
+      <class name="seleniumprojectpack.Example">
+        <methods>
+          <include name="mavsel"/>
+        </methods>
+      </class> <!-- seleniumprojectpack.Example -->
+    </classes>
+  </test> <!-- SampleTest01(failed) -->
+</suite> <!-- Failed suite [SampleTEstSuite] -->
